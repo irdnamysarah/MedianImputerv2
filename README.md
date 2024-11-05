@@ -9,7 +9,7 @@ You can install the package directly from GitHub:
 ```R
 # Uncomment this line if you haven't installed devtools
 # install.packages("devtools")  
-devtools::install_github("irdnamysarah/MedianImputer")
+devtools::install_github("irdnamysarah/MedianImputerv2")
 
 library(MedianImputer)
 
