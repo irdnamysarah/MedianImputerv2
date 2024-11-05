@@ -17,4 +17,3 @@ library(MedianImputer)
 df_test <- data.frame(salary = c(1000, NA, 8000, NA), age = c(NA, 20, 30, NA))
 imputed_df <- median_imputer(df_test)
 print(imputed_df)
-
