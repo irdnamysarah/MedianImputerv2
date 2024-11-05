@@ -13,7 +13,7 @@ devtools::install_github("irdnamysarah/MedianImputer")
 
 library(MedianImputer)
 
-# Example usage with a sample data frame
+# Example with a sample data frame
 df_test <- data.frame(salary = c(1000, NA, 8000, NA), age = c(NA, 20, 30, NA))
 imputed_df <- median_imputer(df_test)
 print(imputed_df)
